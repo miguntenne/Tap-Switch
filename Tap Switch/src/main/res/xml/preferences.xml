@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <CheckBoxPreference
+        android:key="KEY_DT2W_BOTTOM"
+        android:title="DTBottom2W"
+        android:summary="When checked, DT2W will be enabled only in the bottom of the screen"
+        android:defaultValue="false" />
+
+
+    <CheckBoxPreference
+        android:key="KEY_S2S_RIGHT"
+        android:title="Sweep to Right"
+        android:summary="When checked, sweep across navigation bar to right to put the screen to sleep"
+        android:defaultValue="false"/>
+
+
+
+
+</PreferenceScreen>
